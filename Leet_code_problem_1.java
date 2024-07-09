@@ -4,9 +4,7 @@ public class Leet_code_problem_1 {
 
 	public static void main(String[] args) {
    
-		// find numbers with even number digits   given: int [] number  ={12,345,2,6,7896};
-		
-		/* Q. given an array number of integer ,return how many of them consists even digits */
+		// https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/
 	
 	int num[]={12,345,2,6,7896};
 	int count=Find_Even(num);
