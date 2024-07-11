@@ -12,7 +12,7 @@ public class Linear_search {
 		  🪩 In this program 1 is the best complexity and 12 is the worst complexity 
 		*/
 	}
-	static int   ls(int a[], int target) {
+	static int   ls(int a[], int target) {  // ls (linear search)
 		                                                 
 		for(int i=0;i<a.length;i++) {
 			// if value found in the array ,which use to  return the index value of the target element
