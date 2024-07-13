@@ -4,6 +4,10 @@ public class Missing_element_in_array {
 
 	public static void main(String[] args) {
 
+
+ //   https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1?page=1&sortBy=submissions
+
+		
 		int a[]= {1,2,3,4,6,7};
 		
 		
