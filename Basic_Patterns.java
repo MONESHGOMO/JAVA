@@ -14,7 +14,7 @@ public class Basic_Patterns {
 	       System.out.println();
 		   Pattern_5();
 		   System.out.println();
-  
+		   Pattern_6();
 	}
 
 
@@ -78,6 +78,7 @@ public class Basic_Patterns {
 	    		for(int space=1;space<=k-row;space++) {
 	    			System.out.print(" ");
 	    		}
+	    		
 	    		for(int col=1;col<=row;col++) {
 	    			System.out.print("* ");
 	    		}
