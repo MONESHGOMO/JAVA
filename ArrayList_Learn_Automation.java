@@ -28,6 +28,14 @@ public class ArrayList_Learn_Automation {
    * 
    *   https://www.youtube.com/watch?v=ZxPtvbtRh5w 
    */
+    /* uses:The ArrayList class is a Java class that you can use to store
+	 *  lists of objects. You can also store objects in an array, but arrays 
+	 *  have a couple of obvious problems. To create an array, you have to
+	 *   specify a size for the array. 
+	 * Sometimes you won't know what size array you will need at the instant you create the array.
+	 * 
+	 */
+   
 
 
 	public static void main(String[] args) {
