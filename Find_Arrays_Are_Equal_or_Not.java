@@ -6,9 +6,7 @@ public class Find_Arrays_Are_Equal_or_Not {
 
 	public static void main(String[] args) {
 
-		/* In this code i(myself) used to integrate  two ways to find the arrays are equal or not ,one is line number 18(using In-build function)
-	        and the next approach is using  own function to find    */
-	
+		
 
 		
 		int a[]= {1,2,3,4,6};
