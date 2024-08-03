@@ -37,7 +37,78 @@ public class Constructor {
 		obj1.data();
 		constructor_overloading obj2=new constructor_overloading(); // no parameterized constructor 
 		constructor_overloading obj21=new constructor_overloading( "gomo"); //parameterized constructor 
+
+
+/*
+package GOMO_JAVA_CODES;
+
+public class No_Argument_constructor {
+
 		
+		String name;
+		int id;
+
+			public No_Argument_constructor() {
+			      name="gomo";
+			      id=16;
+			      System.out.println(" data where created" );
+			}
+			
+			
+		}
+*/
+
+/*package GOMO_JAVA_CODES;
+
+public class parameterized_constructor {
+	
+	String Human_name;
+	String Human_type;
+	
+
+	public parameterized_constructor(String name,String type) {
+		
+		Human_name=name;
+		Human_type=type;
+	}
+	
+void data() {
+	System.out.println("THE HUMAN NAME IS : "+ Human_name);
+	System.out.println("THE HUMAN TYPE IS : "+Human_type);
+}
+	
+
+}
+ */
+	/*package GOMO_JAVA_CODES;
+
+public class constructor_overloading {
+
+	
+	 String name;
+	public constructor_overloading() {    // same class but but different in values passing in the parameter 
+		System.out.println("constructor overloading ");
+		
+	}
+	public constructor_overloading(String name) {
+		this.name = name;
+		System.out.println("the user_given name is " + name);
+	}
+	
+	
+
+ //    public constructor_overloading(String given_date) {
+//		given_data= name;
+//	}
+		
+ 
+   
+}
+
+		*/
+		
+
+	
         
 	}
 
