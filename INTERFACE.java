@@ -20,7 +20,7 @@ class b implements a{
 public class INTERFACE {
     public static void main(String[] args) {
 
-        System.out.println();
+        
         b obj=new b();
         obj.config();
         obj.show();
