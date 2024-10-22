@@ -1,0 +1,72 @@
+  
+Documentation : https://www.w3schools.com/java/java_files.asp  (the codebase is matched with the Documentation)
+
+
+
+
+Streams: (Abstraction that java provides)
+    It is a sequence of data and  it can be two types of data 
+    1.Byte (image)
+    2.Character(uni code characters)
+    [imp]: Streams are connected to our input system
+    3.Java implements these within th classes of java.io packages 
+
+    
+    Byte Stream :(ectends InputStreams or OutputStreams)
+
+    METHODS AVAILABLA : Read()
+        two types [ InputStream & OutputStream ]
+         
+         FileInputStream
+            [FileInputStream]
+                Reads data from files.
+            [ByteArrayInputStream]
+                Reads data from a byte array.
+            [BufferedInputStream]
+                 buffering to an input stream for improved performance.
+            [DataInputStream]
+                Reads primitive data types (e.g., int, float, boolean).
+            [PipedInputStream]
+                Reads data from a PipedOutputStream (used for inter-thread communication).
+            [ObjectInputStream]
+                Reads serialized objects from an input stream.
+            [FilterInputStream]
+                Wrapper for other input streams, used for adding functionality.
+            [SequenceInputStream]
+                Concatenates multiple input streams and reads them sequentially.
+            [PushbackInputStream]
+                Allows a byte to be pushed back into the stream for re-reading.
+
+
+[InputStreamReader] : use to convert streams into character streams ,they read the byte data and decode thst by using charset()
+[IO Exception]:
+             example: file not found, file can't able to read 
+
+
+    Character Stream:
+        two types [Reader & Writer ]
+
+
+
+
+
+
+
+
+
+
+Scanner input = new Scanner(System.in);
+
+        System.in is a standard input stream (class) in Java.
+         It is typically used to read input from the keyboard. Here are some key points about System.in:
+
+        Key Points:
+            Type: System.in is an instance of InputStream.
+            Purpose: It is used to read byte data from standard input (usually the keyboard).            
+            Usage: Often used with classes like Scanner, BufferedReader, or InputStreamReader to read user input in a more manageable format.
+        Predefined-Streams :
+            Standard output stream ( Console ) -> System.out  | PrintStream |
+            Standard input stream ( Keyword ) -> System.in    | InputStream |
+            Standard error  stream ( Console ) -> System.err  | PrintStream | .. they all are belongs to byte stream 
+             
+
