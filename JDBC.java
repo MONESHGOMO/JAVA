@@ -12,7 +12,7 @@ public class JDBC {
 
         String url = "jdbc:mysql://localhost:3306/sys";
         String user = "root";
-        String password = "gomo_programmer";
+        String password = "yourDataBasePassword";
 
         Connection connection = null;
         Statement stmt = null;
