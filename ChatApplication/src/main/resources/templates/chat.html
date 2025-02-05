@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sockets</title>
+
+    <!-- Bootstrap CSS for styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- WebSocket libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.1/stomp.min.js"></script>
+</head>
+<body>
+<!-- WebSockets Application -->
+<div class="container mt-4">
+    <h1 class="text-center">Real Time Chat Application</h1>
+
+    <!-- Chat messages container -->
+    <div id="chat" class="border rounded p-3 mb-3" style="height: 300px; overflow-y: auto;"></div>
+
+    <!-- Sender name input -->
+    <div class="input-group mb-3">
+        <input id="senderId" type="text" class="form-control" placeholder="Your name.."/>
+    </div>
+
+    <!-- Message input field with send button -->
+    <div class="input-group mb-3">
+        <input id="messageInput" type="text" class="form-control" placeholder="Type a message.."/>
+        <div id="input-group-append">
+            <button id="sendMessage" class="btn btn-primary">Send</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    let stompClient = null; // Declare WebSocket client globally
+
+    // Function to connect to WebSocket
+    function connect() {
+        var socket = new SockJS("/chat");  // WebSocket endpoint
+        stompClient = Stomp.over(socket);
+
+        stompClient.connect({}, function(frame) {
+            console.log("Connected: " + frame);
+
+            // Subscribe to topic
+            stompClient.subscribe("/topic/message", function(message) {
+                showMessage(JSON.parse(message.body));
+            });
+
+        }, function(error) {
+            console.error("WebSocket connection error:", error);
+        });
+    }
+
+    // Function to send message
+    function sendMessage() {
+        var sender = document.getElementById('senderId').value.trim();
+        var content = document.getElementById('messageInput').value.trim();
+
+        if (sender === "" || content === "") {
+            alert("Please enter both name and message.");
+            return;
+        }
+
+        var chatMessage = {
+            sender: sender,  // Use 'sender' here as it's the correct key in your backend
+            content: content
+        };
+
+        console.log("Sending:", chatMessage);
+
+        stompClient.send("/app/sendMessage", {}, JSON.stringify(chatMessage));  // Send message
+        document.getElementById('messageInput').value = ''; // Clear input field
+    }
+
+    // Function to display messages in chat box
+    function showMessage(message) {
+        console.log("Received:", message);
+
+        var chat = document.getElementById('chat');
+        var messageElement = document.createElement('div');
+
+        messageElement.textContent = message.sender + ": " + message.content;
+        chat.appendChild(messageElement);
+        chat.scrollTop = chat.scrollHeight; // Auto-scroll to bottom
+    }
+
+    // Attach event listener to button
+    document.getElementById('sendMessage').addEventListener('click', sendMessage);
+
+    // Connect to WebSocket when page loads
+    window.onload = connect;
+</script>
+
+</body>
+</html>
