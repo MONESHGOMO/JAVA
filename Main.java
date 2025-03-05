@@ -42,8 +42,8 @@ public class Main {
                 case 3:
 
                     System.out.println("Multiplication");
-                    sys
-                    System.out.print("Enter your second value : ");
+                    System.out.println();
+                    System.out.print("Enter your first value : ");
 
                     int userDataOneForMultiplication = input.nextInt();
                     System.out.print("Enter your second value : ");
