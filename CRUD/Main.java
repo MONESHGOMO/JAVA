@@ -5,7 +5,7 @@ import java.util.ListIterator;
 import java.util.Scanner;
    
 
-public class Main {
+public class Main {  // this is the class name
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Scanner str = new Scanner(System.in);
