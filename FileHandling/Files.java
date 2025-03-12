@@ -6,7 +6,7 @@ import java.io.IOException;
 class Files{
     public static void main(String[] args)   {
         
-        File myfile = new File("GOMO.txt");
+        File myfile = new File("GOMO.txt"); // separator alternative <-> Paths.get()
       /*    System.out.println(myfile.canRead());
         System.out.println(myfile.canWrite());
         System.out.println(myfile.getName());
