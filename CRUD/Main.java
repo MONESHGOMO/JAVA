@@ -5,7 +5,7 @@ import java.util.ListIterator;
 import java.util.Scanner;
    
 
-public class Main { 
+public class Main {  
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Scanner str = new Scanner(System.in);
@@ -25,7 +25,7 @@ public class Main {
             System.out.println("4. Update");
             System.out.println("5. Delete");
             System.out.println("6. To Terminate ");
-            System.out.println("Choose an operation:");
+            System.out.print("Choose an operation:");
             choice = input.nextInt();
             input.nextLine();
 
@@ -117,7 +117,7 @@ public class Main {
                     break;
 
                 default:
-                    System.out.println("Process Terminated......");
+                    System.out.println("Process Terminated...");
                     break;
             }
         } while (choice != 0 && choice <= 5);
