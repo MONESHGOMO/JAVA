@@ -5,7 +5,7 @@ import java.util.ListIterator;
 import java.util.Scanner;
    
 
-public class Main {  // this is the class name
+public class Main { 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Scanner str = new Scanner(System.in);
@@ -24,6 +24,7 @@ public class Main {  // this is the class name
             System.out.println("3. Get Specific Employee");
             System.out.println("4. Update");
             System.out.println("5. Delete");
+            System.out.println("6. To Terminate ");
             System.out.println("Choose an operation:");
             choice = input.nextInt();
             input.nextLine();
@@ -116,7 +117,7 @@ public class Main {  // this is the class name
                     break;
 
                 default:
-                    System.out.println("Invalid choice. Please try again.");
+                    System.out.println("Process Terminated......");
                     break;
             }
         } while (choice != 0 && choice <= 5);
