@@ -3,13 +3,12 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.Scanner;
-   
 
-public class Main {  
+public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Scanner str = new Scanner(System.in);
-
+*
        
 
         List<Employee> c = new ArrayList<Employee>();
@@ -37,13 +36,13 @@ public class Main {
                     name = str.nextLine();
                     System.out.print("Enter your age: ");
                     age = input.nextInt();
-                    c.add(new Employee(name, age, id));
+                    c.add(new Employee(name, age, id));  //  instance  creation 
                     System.out.println("Employee added successfully.");
                     break;
 
                 case 2:
                     System.out.println("================================================================================");
-                    Iterator<Employee> i = c.iterator();
+                    Iterator<Employee> i = c.iterator();  // iterator creation  and c.iterator() method is used to get the Iterator object.
                     while (i.hasNext()) {
                         Employee e = i.next();
                         System.out.println(e);
@@ -75,9 +74,9 @@ public class Main {
                     System.out.print("Enter employee ID to update: ");
                     empno = input.nextInt();
                     System.out.println("================================================================================");
-                    ListIterator<Employee> li = c.listIterator();
+                    ListIterator<Employee> li = c.listIterator(); // for traversing a list in both direction
                     while (li.hasNext()) {
-                        Employee e = li.next();
+                        Employee e = li.next();  // interator method to get the next element in the list.
                         if (e.getEmpId() == empno) {
                             System.out.print("Enter the new name: ");
                             String new_name = str.nextLine();
