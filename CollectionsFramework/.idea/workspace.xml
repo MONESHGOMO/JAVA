@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8422e40c-bebc-4200-9466-439836cc0410" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATM_PROJECT/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApplication/src/main/java/com/MiniProject/ChatApplication/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApplication/src/main/java/com/MiniProject/ChatApplication/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApplication/target/classes/com/MiniProject/ChatApplication/ChatApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApplication/target/classes/com/MiniProject/ChatApplication/ChatApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApplication/target/classes/com/MiniProject/ChatApplication/configurations/WebSocketConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApplication/target/classes/com/MiniProject/ChatApplication/configurations/WebSocketConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApplication/target/classes/com/MiniProject/ChatApplication/controller/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApplication/target/classes/com/MiniProject/ChatApplication/controller/MessageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApplication/target/classes/com/MiniProject/ChatApplication/models/ChatMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApplication/target/classes/com/MiniProject/ChatApplication/models/ChatMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApplication/target/classes/com/MiniProject/ChatApplication/models/MessageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApplication/target/classes/com/MiniProject/ChatApplication/models/MessageType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApplication/target/test-classes/com/MiniProject/ChatApplication/ChatApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApplication/target/test-classes/com/MiniProject/ChatApplication/ChatApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intern/out/production/Intern/TemperatureConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Intern/out/production/Intern/TemperatureConversion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StreamsApi/CreatingStreamsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StreamsApi/CreatingStreamsAPI.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MONESHGOMO&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MONESHGOMO/JAVA.git&quot;,
+    &quot;accountId&quot;: &quot;d426ada6-ff32-4d78-98cc-82f1387373c9&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2zUmY0YqxEbidOPWlikdLY6Eihp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/OneDrive/Documents/Desktop/JAVA/CollectionsFramework&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CollectionsFramework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="CollectionsFramework" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8422e40c-bebc-4200-9466-439836cc0410" name="Changes" comment="" />
+      <created>1751794069701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751794069701</updated>
+    </task>
+    <servers />
+  </component>
+</project>

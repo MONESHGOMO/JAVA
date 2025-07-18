@@ -1,0 +1,30 @@
+
+1. ArrayList { Done }
+2. Vector   { Done }
+3. CopyOnWriteArrayList { Done }
+4. Stack  { Done }
+5. Marker Interface { done } & Random Interface 
+6. Real example of using list implementation
+7. Comparison of List implementation
+
+why list ?
+
+ * Support data manipulation by elements index
+ * List implementation may contains duplicate 
+ * Possibilities to create sub-lists
+ * Sorting
+ * wide range of use 
+
+ GPT : https://chatgpt.com/share/687a558e-0488-8007-add3-6a041e32964a
+
+
+
+why list :
+
+    Developer need to store elements in the continers { they use the container as  a single unit }
+
+    Stack is not a list { just a reverse queue }
+
+
+Key points :
+ - how memeory management is work in ArrayList { learn automation online }
